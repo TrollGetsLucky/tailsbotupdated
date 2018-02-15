@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const music = require('discord.js-music-v11');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -19,6 +18,7 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+
 
 
 
