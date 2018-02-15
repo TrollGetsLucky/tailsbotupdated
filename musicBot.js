@@ -1,9 +1,8 @@
 const Discord = require('discord.js');
-const music = require('discord.js-music-v11');
-const Bot = new Discord.Client();
-I
-   Bot.on('ready', () => {
-    console.log(`[Start] ${new Date()}`);
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
 music(Bot, {
