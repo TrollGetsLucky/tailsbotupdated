@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'EggMan') {
-    	message.reply('Pingas');
+    if (message.content === '!help') {
+    	message.reply('Hello! Im Tails Your Assistant. Commands ```!play```');
   	}
 });
 
