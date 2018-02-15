@@ -7,12 +7,12 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Hello! Im Tails Your Assistant. Commands ```tails!lockdown```');
+    	message.reply('Hello! Im Tails Your Assistant. Commands ```@Tails#5776 hi```');
   	}
 });
 client.on('message', message => {
-    if (message.content === 'tails!lockdown') {
-    	message.reply('n!lockdown 90000');
+    if (message.content === '@Tails#5776 hi') {
+    	message.reply('hi');
   	}
 });
 
