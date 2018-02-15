@@ -1,6 +1,4 @@
 const Discord = require('discord.js');
-const YoutubeDL = require('youtube-dl');
-const ytdl = require('ytdl-core');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -15,4 +13,6 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+
+
 
