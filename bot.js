@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Hello! Im Tails Your Assistant. Commands Prefix ```Tails```');
+    	message.reply('Hello! Im Tails Your Assistant. Commands Prefix ```Tails``` or Full Commands list athttps://tailsbot.blogspot.com/2018/02/blog-post.html');
   	}
 });
 client.on('message', message => {
