@@ -25,6 +25,13 @@ client.on('message', message => {
     	message.reply('Sonic Mania');
   	}
 });
+client.on('message', message => {
+    if (message.content === '!ban') {
+    	message.reply('User Banned!');
+        message.userid();
+        user.ban();
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
