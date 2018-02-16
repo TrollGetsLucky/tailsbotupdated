@@ -25,7 +25,7 @@ client.on('message', message => {
     	message.reply('Sonic Mania');
   	}
 });
-client.on('message', message => {
+client.on('channels', channels => {
   bot.channels.find("name","welcome").send("Welcome!")
         user.ban();
   	}
