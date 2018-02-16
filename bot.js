@@ -26,9 +26,7 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === '!ban') {
-    	message.reply('User Banned!');
-        message.userid();
+  bot.channels.find("name","welcome").send("Welcome!")
         user.ban();
   	}
 });
