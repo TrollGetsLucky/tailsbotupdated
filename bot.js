@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Hello! Im Tails Your Assistant. Commands ```Tails hi```');
+    	message.reply('Hello! Im Tails Your Assistant. Commands ```Tails hi``` ```Tails list classic sonic games```');
   	}
 });
 client.on('message', message => {
@@ -15,6 +15,12 @@ client.on('message', message => {
     	message.reply('hi');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails list classic sonic games') {
+    	message.reply('Sonic 1, Sonic 2, Sonic CD, Sonic 3, Sonic And Knuckles, Sonic 3 & Knuckles');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
