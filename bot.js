@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Hello! Im Tails Your Assistant. Commands ```Tails hi``` ```Tails list classic sonic games``` ```Tails list modern day classic sonic games```');
+    	message.reply('Hello! Im Tails Your Assistant. Commands Prefix ```Tails```');
   	}
 });
 client.on('message', message => {
