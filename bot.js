@@ -7,11 +7,11 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Hello! Im Tails Your Assistant. Commands ```@Tails hi```');
+    	message.reply('Hello! Im Tails Your Assistant. Commands ```Tails hi```');
   	}
 });
 client.on('message', message => {
-    if (message.content === '@Tails hi') {
+    if (message.content === 'Tails hi') {
     	message.reply('hi');
   	}
 });
