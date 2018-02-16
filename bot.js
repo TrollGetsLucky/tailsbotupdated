@@ -25,10 +25,7 @@ client.on('message', message => {
     	message.reply('Sonic Mania');
   	}
 });
-if (message.conent.indexOf("!ban") === 0) {
-   var userToBan = message.content.slice(5);
-   //userToBan will be the string of what they typed after ban. 
-}):
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
