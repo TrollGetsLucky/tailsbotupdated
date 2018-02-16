@@ -26,8 +26,7 @@ client.on('message', message => {
   	}
 });
 client.on('channels', channels => {
-  bot.channels.find("name","welcome").send("Welcome!")
-        user.ban();
+  bot.channels.find("name","welcome").send("Welcome!") {
   	}
 });
 
