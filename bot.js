@@ -25,10 +25,6 @@ client.on('message', message => {
     	message.reply('Sonic Mania');
   	}
 });
-client.on('channels', channels => {
-  bot.channels.find("name","welcome").send("Welcome!") {
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
