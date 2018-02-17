@@ -40,6 +40,16 @@ client.on('message', message => {
     	message.reply(':tophat: With The Power Of Chaos Emeralds I Revive Chat :tophat:');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails are you shit') {
+    	message.reply('no');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Hi Tails') {
+    	message.reply('hi');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
