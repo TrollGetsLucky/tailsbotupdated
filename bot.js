@@ -50,6 +50,12 @@ client.on('message', message => {
     	message.reply('hi');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails why do you follow sonic') {
+    	message.reply('we are friends');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
