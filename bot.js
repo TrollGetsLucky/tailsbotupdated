@@ -25,6 +25,12 @@ client.on('message', message => {
     	message.reply('Sonic Mania');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails are you gay') {
+    	message.reply('No');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
