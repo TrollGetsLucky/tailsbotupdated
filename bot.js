@@ -55,6 +55,23 @@ client.on('message', message => {
     	message.reply('we are friends');
   	}
 });
+lastCommands = [], limit = 5;
+
+function handleCommand( timeObj, action ) {
+    if ( lastCommands.length < limit ) {
+        action();
+    } else {
+        // enumerate through lastCommands and compare the timestamps of all 5 commands
+        // if the user is the same for all 5 commands, and...
+        // if the timestamps are all within the vicinity of 20 seconds
+        // add the user to the ignoreList
+    }  
+}
+
+
+watch_for('command', function() {
+   handleCommand({timestamp: 2093293032, user: user}, function(){ message.say('hello there!') })
+});
 
 
 // THIS  MUST  BE  THIS  WAY
