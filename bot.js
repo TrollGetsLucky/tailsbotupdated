@@ -30,6 +30,11 @@ client.on('message', message => {
     	message.reply('No');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails can you watch videos') {
+    	message.reply('No');
+  	}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
