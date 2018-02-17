@@ -35,7 +35,11 @@ client.on('message', message => {
     	message.reply('No');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === 'Tails Revive Chat') {
+    	message.reply(':tophat: With The Power Of Chaos Emeralds I Revive Chat :tophat:');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
