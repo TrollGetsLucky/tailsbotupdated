@@ -60,6 +60,9 @@ client.on('message', message => {
     	message.reply('no -_-');
   	}
 });
+bot.on('ready', () => {
+  bot.user.setGame('Sonic Mania')
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
