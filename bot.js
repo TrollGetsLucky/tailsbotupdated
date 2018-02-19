@@ -55,6 +55,11 @@ client.on('message', message => {
     	message.reply('we are friends');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails are you fat') {
+    	message.reply('no -_-');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
