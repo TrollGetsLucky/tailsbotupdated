@@ -70,6 +70,11 @@ client.on('message', message => {
     	message.reply('February 2, 1994');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails date of sonic and knuckles') {
+    	message.reply('October 18, 1994');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
