@@ -65,6 +65,11 @@ client.on('message', message => {
     	message.reply('Yes');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails date of sonic 3') {
+    	message.reply('February 2, 1994');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
