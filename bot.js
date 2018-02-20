@@ -85,6 +85,11 @@ client.on('message', message => {
     	message.reply('November 21, 1992');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails date of sonic 1') {
+    	message.reply('Original release dates: NA: June 23, 1991 EU: July 1991 JP: July 26, 1991');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
