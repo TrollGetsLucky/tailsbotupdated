@@ -60,6 +60,11 @@ client.on('message', message => {
     	message.reply('no -_-');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails are you Tails') {
+    	message.reply('Yes');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
