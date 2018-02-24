@@ -90,7 +90,8 @@ client.on('message', message => {
     	message.reply('Original release dates: NA: June 23, 1991 EU: July 1991 JP: July 26, 1991');
   	}
 });
-client.on(client.user.setGame('Sonic Mania');
+client.on('user', user => {
+ if (user.
     }
 });
 
