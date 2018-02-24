@@ -92,7 +92,7 @@ client.on('message', message => {
 });
 client.on('bot', bot => {
     if (bot.setGame === 'Sonic Mania') {
-    	 bot.setGame('Sonic Mania');
+    	 bot.playing('Sonic Mania');
   	}
 });
           
