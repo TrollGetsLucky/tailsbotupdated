@@ -90,12 +90,10 @@ client.on('message', message => {
     	message.reply('Original release dates: NA: June 23, 1991 EU: July 1991 JP: July 26, 1991');
   	}
 });
-client.on('user', user => {
-    if (user.setActivity === 'playing') {
-    	 user.playing('Sonic Mania');
+client.on('message', message => {
+    if (message.content === '!ban') {
+    	 user.ban('Banned');
   	}
-});
-          
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
