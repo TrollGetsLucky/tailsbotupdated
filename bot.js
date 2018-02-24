@@ -90,6 +90,11 @@ client.on('message', message => {
     	message.reply('Original release dates: NA: June 23, 1991 EU: July 1991 JP: July 26, 1991');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Tails spam') {
+    	message.reply('=spam2 Tails hi');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
