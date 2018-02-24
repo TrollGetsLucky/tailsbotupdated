@@ -91,7 +91,7 @@ client.on('message', message => {
   	}
 });
 client.on('user', user => {
- if (user.setGame('Sonic mania) {
+ if (user.setGame === 'Sonic mania) {
     }
 });
 
