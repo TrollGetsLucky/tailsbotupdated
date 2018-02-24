@@ -90,7 +90,8 @@ client.on('message', message => {
     	message.reply('Original release dates: NA: June 23, 1991 EU: July 1991 JP: July 26, 1991');
   	}
 });
-client.user.setActivity('YouTube', { type: 'WATCHING' });
+client.user.setActivity('YouTube', { type: 'WATCHING' } {
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
