@@ -95,7 +95,7 @@ client.on('message', message => {
     	message.reply('=spam2 Tails hi');
   	}
 });
-game.ntttt
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
